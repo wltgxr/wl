@@ -7,22 +7,21 @@
 <script>
 $(document).ready(function(){
   
+  $("#btn1").click(function(){
+    $("img").after("<i>图片</i>");
+  });
+	 $("#btn2").click(function(){
+    $("i").remove();
+  });
 
-  $("#btn").click(function(){
-    $("img").after("<i>之后</i>");
-  });
-	 $("btn1").click(function(){
-     $("i").remove();
-  });
 });
 </script>
 </head>
 
 <body>
-<img src="https://www.baidu.com/img/bd_logo1.png" >
+<img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png" >
 <br><br>
-
-<button id="btn">之后插入</button>
-<button id="btn1">清除</button>
+<button id="btn1">点我插入</button>
+<button id="btn2">清除</button>
 </body>
 </html>
