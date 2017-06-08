@@ -7,19 +7,19 @@
 <script>
 $(document).ready(function(){
   $("#btn1").click(function(){
-    $("img").after("<i>图片</i>");
+    $("p").after("<b>+1</b>");
   });
-    $("#btn2").click(function(){
-    $("i").remove();
+	 $("#btn2").click(function(){
+    $("b").remove();
   });
+  
 });
 </script>
 </head>
 
 <body>
-<img src="https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo_top_ca79a146.png" >
-<br><br>
-<button id="btn1">图片插入</button>
+<p>99</p>
+<button id="btn1">点我+1</button>
 <button id="btn2">清除</button>
 </body>
 </html>
